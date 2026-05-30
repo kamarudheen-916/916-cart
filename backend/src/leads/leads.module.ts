@@ -1,0 +1,12 @@
+import { Module } from '@nestjs/common';
+import { LeadsService } from './leads.service';
+import { LeadsController } from './leads.controller';
+import { MailModule } from '../mail/mail.module';
+
+@Module({
+  imports: [MailModule],
+  controllers: [LeadsController],
+  providers: [LeadsService],
+  exports: [LeadsService],
+})
+export class LeadsModule {}

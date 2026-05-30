@@ -1,0 +1,33 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Lead {
+  id        String   @id @default(uuid())
+  name      String
+  mobile    String
+  email     String
+  state     String
+  city      String?
+  quantity  Int
+  source    String?  // utm_source
+  campaign  String?  // utm_campaign
+  medium    String?  // utm_medium
+  createdAt DateTime @default(now())
+}
+
+model AnalyticsEvent {
+  id        String   @id @default(uuid())
+  sessionId String
+  eventType String   // "page_visit" | "button_click" | "modal_open" | "lead_submission"
+  page      String
+  source    String?  // utm_source
+  campaign  String?  // utm_campaign
+  medium    String?  // utm_medium
+  createdAt DateTime @default(now())
+}
