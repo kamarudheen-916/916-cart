@@ -12,10 +12,12 @@ export default function Navbar({ onReserveClick }: NavbarProps) {
     <header className="absolute top-0 left-0 z-40 w-full bg-gradient-to-b from-black/50 to-transparent border-b border-white/5 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Brand Logo */}
-        <div className="flex items-center space-x-2">
-          <span className="font-serif text-lg tracking-[0.2em] uppercase text-white font-light">
-            BAMBOO<span className="text-bamboo-500 font-normal">.</span>
-          </span>
+        <div className="flex items-center">
+          <img 
+            src="/images/916cart-logo.jpg" 
+            alt="916 Cart Logo" 
+            className="h-10 w-auto object-contain rounded-md" 
+          />
         </div>
 
         {/* Center Links (Decorative/Minimalist) */}

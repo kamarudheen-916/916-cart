@@ -93,9 +93,11 @@ export default function LandingPage() {
       <footer className="bg-luxury-dark border-t border-white/5 py-12 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <span className="font-serif text-sm tracking-[0.2em] uppercase text-white font-light">
-              BAMBOO<span className="text-bamboo-500 font-normal">.</span>
-            </span>
+            <img 
+              src="/images/916cart-logo.jpg" 
+              alt="916 Cart Logo" 
+              className="h-8 w-auto object-contain rounded-md" 
+            />
             <p className="text-[11px] text-luxury-muted">
               © {new Date().getFullYear()} Bamboo Luxury. Elevating everyday details.
             </p>

@@ -177,9 +177,11 @@ export default function AdminPage() {
       <header className="glass-navbar sticky top-0 z-20 w-full">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <span className="font-serif text-lg tracking-[0.2em] uppercase text-white font-light">
-              BAMBOO<span className="text-bamboo-500 font-normal">.</span>
-            </span>
+            <img 
+              src="/images/916cart-logo.jpg" 
+              alt="916 Cart Logo" 
+              className="h-9 w-auto object-contain rounded-md" 
+            />
             <span className="px-2 py-0.5 rounded bg-bamboo-500/10 border border-bamboo-500/20 text-[9px] uppercase tracking-wider text-bamboo-400">
               Demand Console
             </span>
