@@ -94,7 +94,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col items-center md:items-start gap-2">
             <img 
-              src="/images/916cart-logo.jpg" 
+              src="/images/916cart-logo.png" 
               alt="916 Cart Logo" 
               className="h-8 w-auto object-contain rounded-md" 
             />

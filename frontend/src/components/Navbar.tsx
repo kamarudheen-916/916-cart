@@ -14,7 +14,7 @@ export default function Navbar({ onReserveClick }: NavbarProps) {
         {/* Brand Logo */}
         <div className="flex items-center">
           <img 
-            src="/images/916cart-logo.jpg" 
+            src="/images/916cart-logo.png" 
             alt="916 Cart Logo" 
             className="h-10 w-auto object-contain rounded-md" 
           />

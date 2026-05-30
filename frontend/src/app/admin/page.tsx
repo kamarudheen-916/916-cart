@@ -178,7 +178,7 @@ export default function AdminPage() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <img 
-              src="/images/916cart-logo.jpg" 
+              src="/images/916cart-logo.png" 
               alt="916 Cart Logo" 
               className="h-9 w-auto object-contain rounded-md" 
             />
